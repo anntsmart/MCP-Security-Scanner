@@ -66,14 +66,18 @@ python main.py
 #### 1. 启动扫描
 
 无Token:
+```bash
 对该MCP进行安全扫描
 http://xxx.xxx.xxx:7777/sse
+```
 <img width="866" height="405" alt="image" src="https://github.com/user-attachments/assets/a442e603-6f1b-44af-8f58-e3b91f77db80" />
 
 有Token:
+```bash
 对该MCP进行安全扫描
 https://xxx.xxx.xxx/mcp-servers/plant-monitor-getproductionorder/sse
 Authorization=Bearer apikey-693xxxxxxxxxxxxx
+```
 <img width="844" height="525" alt="image" src="https://github.com/user-attachments/assets/34cf3d8b-4860-41e6-8da2-b4c34d606d74" />
 
 #### 2. 查询进度
