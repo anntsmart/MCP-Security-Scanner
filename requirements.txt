@@ -1,0 +1,10 @@
+# MCP 相关
+fastmcp>=0.1.0
+mcp>=0.1.0
+
+# LangGraph (仅用于工作流编排，不需要 LLM)
+langgraph>=0.2.0
+
+# 异步支持
+httpx>=0.25.0
+httpx-sse>=0.3.0
