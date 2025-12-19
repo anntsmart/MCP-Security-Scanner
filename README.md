@@ -27,7 +27,6 @@
 
 ```bash
 pip install -r requirements.txt
-```
 推荐使用uv环境
 uv init MCP  
 cd MCP
@@ -35,6 +34,7 @@ echo "3.13" > .python-version
 uv venv
 source .venv/bin/activate
 uv add "mcp[cli]" httpx
+```
 ### 依赖
 
 - Python 3.10+
@@ -69,20 +69,24 @@ python main.py
 无Token:
 对该MCP进行安全扫描
 http://xxx.xxx.xxx:7777/sse
+<img width="866" height="405" alt="image" src="https://github.com/user-attachments/assets/a442e603-6f1b-44af-8f58-e3b91f77db80" />
 
 有Token:
 对该MCP进行安全扫描
 https://xxx.xxx.xxx/mcp-servers/plant-monitor-getproductionorder/sse
 Authorization=Bearer apikey-693xxxxxxxxxxxxx
+<img width="844" height="525" alt="image" src="https://github.com/user-attachments/assets/34cf3d8b-4860-41e6-8da2-b4c34d606d74" />
 
 #### 2. 查询进度
 
 输入“继续”：
+<img width="831" height="769" alt="image" src="https://github.com/user-attachments/assets/342af922-3aca-42fa-b44f-6d360915c098" />
 
 
 #### 3. 获取结果
 
 输入“获取扫描详情”：
+<img width="817" height="590" alt="image" src="https://github.com/user-attachments/assets/d836d428-5e57-4adf-bd4d-d19f9a0fc0a9" />
 
 
 
