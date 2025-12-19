@@ -49,12 +49,11 @@ uv add "mcp[cli]" httpx
 
 ```bash
 python main.py
-```
 使用uv安装：uv run main.py
 服务器默认运行在 `http://0.0.0.0:8000/sse`
-
+```
 ### 使用方式
-
+```bash
 通过 MCP 客户端（如 Cherry Studio/Kiro/Cursor/Trae）连接：
 {
   "mcpServers": {
@@ -63,7 +62,7 @@ python main.py
     }
   }
 }
-
+```
 #### 1. 启动扫描
 
 无Token:
